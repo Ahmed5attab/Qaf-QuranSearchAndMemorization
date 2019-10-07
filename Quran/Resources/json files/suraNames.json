@@ -1,0 +1,692 @@
+{
+    "SuraData":[
+                
+                {
+                "SuraName": "الفاتحة",
+                "NumberofVerses": 7,
+                "Type":0,
+                "Chapter":"الجزء الأول"
+                },
+                {
+                "SuraName": "البقرة",
+                "NumberofVerses": 286,
+                "Type":1,
+                "Chapter":"الجزء الأول"
+                },
+                {
+                "SuraName": "آل عمران",
+                "NumberofVerses": 200,
+                "Type":1,
+                "Chapter":"الجزء الثالث"
+                },
+                {
+                "SuraName": "النساء",
+                "NumberofVerses": 176,
+                "Type":1,
+                "Chapter":"الجزء الرابع"
+                },
+                {
+                "SuraName": "المائدة",
+                "NumberofVerses": 120,
+                "Type":1,
+                "Chapter":"الجزء السادس"
+                },
+                {
+                "SuraName": "الأنعام",
+                "NumberofVerses": 165,
+                "Type":0,
+                "Chapter":"الجزء السابع"
+                },
+                {
+                "SuraName": "الأعراف",
+                "NumberofVerses": 206,
+                "Type":0,
+                "Chapter":"الجزء الثامن"
+                },
+                {
+                "SuraName": "الأنفال",
+                "NumberofVerses": 75,
+                "Type":1,
+                "Chapter":"الجزء التاسع"
+                },
+                {
+                "SuraName": "التوبة",
+                "NumberofVerses": 129,
+                "Type":1,
+                "Chapter":"الجزء العاشر"
+                },
+                {
+                "SuraName": "يونس",
+                "NumberofVerses": 109,
+                "Type":0,
+                "Chapter":"الجزء الحادي عشر"
+                },
+                {
+                "SuraName": "هود",
+                "NumberofVerses":123,
+                "Type":0,
+                "Chapter":"الجزء الحاديي عشر"
+                
+                },
+                {
+                "SuraName": "يوسف",
+                "NumberofVerses":111,
+                "Type":0,
+                "Chapter":"الجزء الثاني عشر"
+                },
+                {
+                "SuraName": "الرعد",
+                "NumberofVerses":43,
+                "Type":1,
+                "Chapter":"الجزء الثالث عشر"
+                },
+                {
+                "SuraName": "إبراهيم",
+                "NumberofVerses":52,
+                "Type":0,
+                "Chapter":"الجزء الثالث عشر"
+                },
+                {
+                "SuraName": "الحجر",
+                "NumberofVerses":99,
+                "Type":0,
+                "Chapter":"الجزء الرابع عشر"
+                },
+                {
+                "SuraName": "النحل",
+                "NumberofVerses":128,
+                "Type":0,
+                "Chapter":"الجزء الرابع عشر"
+                },
+                {
+                "SuraName": "الإسراء",
+                "NumberofVerses":111,
+                "Type":0,
+                "Chapter":"الجزء الخامس عشر"
+                },
+                {
+                "SuraName": "الكهف",
+                "NumberofVerses":110,
+                "Type":0,
+                "Chapter":"الجزء الخامس عشر"
+                },
+                {
+                "SuraName": "مريم",
+                "NumberofVerses":98,
+                "Type":0,
+                "Chapter":"الجزء السادس عشر"
+                },
+                {
+                "SuraName": "طه",
+                "NumberofVerses":135,
+                "Type":0,
+                "Chapter":"الجزء السادس عشر"
+                },
+                {
+                "SuraName": "الأنبياء",
+                "NumberofVerses":112,
+                "Type":0,
+                "Chapter":"الجزء السابع عشر"
+                },
+                {
+                "SuraName": "الحج",
+                "NumberofVerses":78,
+                "Type":1,
+                "Chapter":"الجزء السابع عشر"
+                },
+                {
+                "SuraName": "المؤمنون",
+                "NumberofVerses":118,
+                "Type":0,
+                "Chapter":"الجزء الثامن عشر"
+                },
+                {
+                "SuraName": "النور",
+                "NumberofVerses":64,
+                "Type":1,
+                "Chapter":"الجزء الثامن عشر"
+                },
+                {
+                "SuraName": "الفرقان",
+                "NumberofVerses":77,
+                "Type":0,
+                "Chapter":"الجزء الثامن عشر"
+                },
+                {
+                "SuraName": "الشعراء",
+                "NumberofVerses":227,
+                "Type":0,
+                "Chapter":"الجزء التاسع عشر"
+                },
+                {
+                "SuraName": "النمل",
+                "NumberofVerses":93,
+                "Type":0,
+                "Chapter":"الجزء التاسع عشر"
+                },
+                {
+                "SuraName": "القصص",
+                "NumberofVerses":88,
+                "Type":0,
+                "Chapter":"الجزء العشرون"
+                },
+                {
+                "SuraName": "العنكبوت",
+                "NumberofVerses":69,
+                "Type":0,
+                "Chapter":"الجزء العشرون"
+                },
+                {
+                "SuraName": "الروم",
+                "NumberofVerses":60,
+                "Type":0,
+                "Chapter":"الجزء الحادي والعشرون"
+                },
+                {
+                "SuraName": "لقمان",
+                "NumberofVerses":34,
+                "Type":0,
+                "Chapter":"الجزء الحادي والعشرون"
+                },
+                {
+                "SuraName": "السجدة",
+                "NumberofVerses":30,
+                "Type":0,
+                "Chapter":"الجزء الحادي والعشرون"
+                },
+                {
+                "SuraName": "الأحزاب",
+                "NumberofVerses":73,
+                "Type":1,
+                "Chapter":"الجزء الحادي والعشرون"
+                },
+                {
+                "SuraName": "سبأ",
+                "NumberofVerses":54,
+                "Type":0,
+                "Chapter":"الجزء الثاني والعشرون"
+                },
+                {
+                "SuraName": "فاطر",
+                "NumberofVerses":45,
+                "Type":0,
+                "Chapter":"الجزء الثاني والعشرون"
+                },
+                {
+                "SuraName": "يس",
+                "NumberofVerses":83,
+                "Type":0,
+                "Chapter":"الجزء الثاني والعشرون"
+                },
+                {
+                "SuraName": "الصافات",
+                "NumberofVerses":182,
+                "Type":0,
+                "Chapter":"الجزء الثالث والعشرون"
+                },
+                {
+                "SuraName": "ص",
+                "NumberofVerses":88,
+                "Type":0,
+                "Chapter":"الجزء الثالث والعشرون"
+                },
+                {
+                "SuraName": "الزمر",
+                "NumberofVerses":75,
+                "Type":0,
+                "Chapter":"الجزء الثالث والعشرون"
+                },
+                {
+                "SuraName": "غافر",
+                "NumberofVerses":85,
+                "Type":0,
+                "Chapter":"الجزء الرابع والعشرون"
+                },
+                {
+                "SuraName": "فصلت",
+                "NumberofVerses":54,
+                "Type":0,
+                "Chapter":"الجزء الرابع والعشرون"
+                },
+                {
+                "SuraName": "الشورى",
+                "NumberofVerses":53,
+                "Type":0,
+                "Chapter":"الجزء الخامس والعشرون"
+                },
+                {
+                "SuraName": "الزخرف",
+                "NumberofVerses":89,
+                "Type":0,
+                "Chapter":"الجزء الخامس والعشرون"
+                },
+                {
+                "SuraName": "الدخان",
+                "NumberofVerses":59,
+                "Type":0,
+                "Chapter":"الجزء الخامس والعشرون"
+                },
+                {
+                "SuraName": "الجاثية",
+                "NumberofVerses":37,
+                "Type":0,
+                "Chapter":"الجزء الخامس والعشرون"
+                },
+                {
+                "SuraName": "الأحقاف",
+                "NumberofVerses":35,
+                "Type":0,
+                "Chapter":"الجزء السادس والعشرون"
+                },
+                {
+                "SuraName": "محمد",
+                "NumberofVerses":38,
+                "Type":1,
+                "Chapter":"الجزء السادس والعشرون"
+                },
+                {
+                "SuraName": "الفتح",
+                "NumberofVerses":29,
+                "Type":1,
+                "Chapter":"الجزء السادس والعشرون"
+                },
+                {
+                "SuraName": "الحجرات",
+                "NumberofVerses":18,
+                "Type":1,
+                "Chapter":"الجزء السادس والعشرون"
+                },
+                {
+                "SuraName": "ق",
+                "NumberofVerses":45,
+                "Type":0,
+                "Chapter":"الجزء السادس والعشرون"
+                },
+                {
+                "SuraName": "الذاريات",
+                "NumberofVerses":60,
+                "Type":0,
+                "Chapter":"الجزء السادس والعشرون"
+                },
+                {
+                "SuraName": "الطور",
+                "NumberofVerses":49,
+                "Type":0,
+                "Chapter":"الجزء السابع والعشرون"
+                },
+                {
+                "SuraName": "النجم",
+                "NumberofVerses":62,
+                "Type":0,
+                "Chapter":"الجزء السابع والعشرون"
+                },
+                {
+                "SuraName": "القمر",
+                "NumberofVerses":55,
+                "Type":0,
+                "Chapter":"الجزء السابع والعشرون"
+                },
+                {
+                "SuraName": "الرحمن",
+                "NumberofVerses":78,
+                "Type":1,
+                "Chapter":"الجزء السابع والعشرون"
+                },
+                {
+                "SuraName": "الواقعة",
+                "NumberofVerses":96,
+                "Type":0,
+                "Chapter":"الجزء السابع والعشرون"
+                },
+                {
+                "SuraName": "الحديد",
+                "NumberofVerses":29,
+                "Type":1,
+                "Chapter":"الجزء السابع والعشرون"
+                },
+                {
+                "SuraName": "المجادلة",
+                "NumberofVerses":22,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "الحشر",
+                "NumberofVerses":24,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "الممتحنة",
+                "NumberofVerses":13,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "الصف",
+                "NumberofVerses":14,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "الجمعة",
+                "NumberofVerses":11,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "المنافقون",
+                "NumberofVerses":11,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "التغابن",
+                "NumberofVerses":18,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "الطلاق",
+                "NumberofVerses":12,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "التحريم",
+                "NumberofVerses":12,
+                "Type":1,
+                "Chapter":"الجزء الثامن والعشرون"
+                },
+                {
+                "SuraName": "الملك",
+                "NumberofVerses":30,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "القلم",
+                "NumberofVerses":52,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "الحاقة",
+                "NumberofVerses":52,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "المعارج",
+                "NumberofVerses":44,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "نوح",
+                "NumberofVerses":28,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "الجن",
+                "NumberofVerses":28,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "المزمل",
+                "NumberofVerses":20,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "المدثر",
+                "NumberofVerses":56,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "القيامة",
+                "NumberofVerses":40,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "الإنسان",
+                "NumberofVerses":31,
+                "Type":1,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "المرسلات",
+                "NumberofVerses":50,
+                "Type":0,
+                "Chapter":"الجزء التاسع والعشرون"
+                },
+                {
+                "SuraName": "النبأ",
+                "NumberofVerses":40,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "النازعات",
+                "NumberofVerses":46,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "عبس",
+                "NumberofVerses":42,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "التكوير",
+                "NumberofVerses":29,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الإنفطار",
+                "NumberofVerses":19,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "المطففين",
+                "NumberofVerses":36,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الإنشقاق",
+                "NumberofVerses":25,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "البروج",
+                "NumberofVerses":22,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الطارق",
+                "NumberofVerses":17,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الأعلى",
+                "NumberofVerses":19,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الغاشية",
+                "NumberofVerses":26,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الفجر",
+                "NumberofVerses":30,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "البلد",
+                "NumberofVerses":20,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الشمس",
+                "NumberofVerses":15,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الليل",
+                "NumberofVerses":21,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الضحى",
+                "NumberofVerses":11,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الشرح",
+                "NumberofVerses":8,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "التين",
+                "NumberofVerses":8,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "العلق",
+                "NumberofVerses":19,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "القدر",
+                "NumberofVerses":5,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "البينة",
+                "NumberofVerses":8,
+                "Type":1,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الزلزلة",
+                "NumberofVerses":8,
+                "Type":1,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "العاديات",
+                "NumberofVerses":11,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "القارعة",
+                "NumberofVerses":11,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "التكاثر",
+                "NumberofVerses":8,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "العصر",
+                "NumberofVerses":3,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الهمزة",
+                "NumberofVerses":9,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الفيل",
+                "NumberofVerses":5,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "قريش",
+                "NumberofVerses":4,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الماعون",
+                "NumberofVerses":7,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الكوثر",
+                "NumberofVerses":3,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الكافرون",
+                "NumberofVerses":6,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "النصر",
+                "NumberofVerses":3,
+                "Type":1,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "المسد",
+                "NumberofVerses":5,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الإخلاص",
+                "NumberofVerses":4,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الفلق",
+                "NumberofVerses":5,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                },
+                {
+                "SuraName": "الناس",
+                "NumberofVerses":6,
+                "Type":0,
+                "Chapter":"الجزء الثلاثون"
+                }
+                ]
+}
+
+

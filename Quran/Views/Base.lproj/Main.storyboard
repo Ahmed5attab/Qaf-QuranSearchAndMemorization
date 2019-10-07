@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tDV-1C-cXe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="pdms-saleem-quranfont.ttf">
+            <string>_PDMS_Saleem_QuranFont</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Suras Table View Controller-->
+        <scene sceneID="vor-iG-2GE">
+            <objects>
+                <tableViewController storyboardIdentifier="SurasTableViewController" id="f9b-rz-DQL" customClass="SurasTableViewController" customModule="Quran" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZN9-bt-s0K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.88845366239547729" green="0.80328130722045898" blue="0.59200590848922729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" semanticContentAttribute="playback" barStyle="blackTranslucent" searchBarStyle="prominent" text="" placeholder="search for verse" translucent="NO" backgroundImage="seaarch bar" id="YS9-QX-4xm">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            <rect key="contentStretch" x="0.0" y="0.0" width="0.59999999999999998" height="0.45000000000000001"/>
+                            <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <connections>
+                            <outlet property="dataSource" destination="f9b-rz-DQL" id="HBY-J4-3hf"/>
+                            <outlet property="delegate" destination="f9b-rz-DQL" id="6cu-fm-cZo"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Dbf-OL-Wnh"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="searchBar" destination="YS9-QX-4xm" id="wc9-vn-EoW"/>
+                        <outlet property="searchDisplayController" destination="Kss-S0-fAL" id="eLR-Bn-rU6"/>
+                        <outlet property="suarTableView" destination="ZN9-bt-s0K" id="7tS-ac-5Fe"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BJx-eq-ZtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Kss-S0-fAL">
+                    <connections>
+                        <outlet property="delegate" destination="f9b-rz-DQL" id="sUv-Vn-C8j"/>
+                        <outlet property="searchContentsController" destination="f9b-rz-DQL" id="AUm-fK-BBw"/>
+                        <outlet property="searchResultsDataSource" destination="f9b-rz-DQL" id="Z1V-6L-t94"/>
+                        <outlet property="searchResultsDelegate" destination="f9b-rz-DQL" id="Der-F1-jbc"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="626.5" y="456.5"/>
+        </scene>
+        <!--Quran Reading View Controller-->
+        <scene sceneID="Ydm-gA-ihK">
+            <objects>
+                <viewController storyboardIdentifier="QuranReading" id="cua-8R-XO6" customClass="QuranReadingViewController" customModule="Quran" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zb3-eB-pVS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newQuranBackground" translatesAutoresizingMaskIntoConstraints="NO" id="N2A-ht-Nhu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="581"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ih-Yn-iL4">
+                                <rect key="frame" x="32" y="64" width="316" height="504"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="55q-jI-7dD">
+                                        <rect key="frame" x="8" y="8" width="300" height="488"/>
+                                        <fontDescription key="fontDescription" name="_PDMS_Saleem_QuranFont" family="_PDMS_Saleem_QuranFont" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="55q-jI-7dD" firstAttribute="centerX" secondItem="9ih-Yn-iL4" secondAttribute="centerX" id="56a-yH-h7D"/>
+                                    <constraint firstAttribute="trailing" secondItem="55q-jI-7dD" secondAttribute="trailing" constant="8" id="Gdx-8R-Sd7"/>
+                                    <constraint firstItem="55q-jI-7dD" firstAttribute="bottom" secondItem="9ih-Yn-iL4" secondAttribute="bottomMargin" id="Nb7-9r-zwv"/>
+                                    <constraint firstItem="55q-jI-7dD" firstAttribute="centerY" secondItem="9ih-Yn-iL4" secondAttribute="centerY" id="PLE-ZZ-UtL"/>
+                                    <constraint firstItem="55q-jI-7dD" firstAttribute="top" secondItem="9ih-Yn-iL4" secondAttribute="top" constant="8" id="lQ2-cb-JMz"/>
+                                    <constraint firstItem="55q-jI-7dD" firstAttribute="leading" secondItem="9ih-Yn-iL4" secondAttribute="leading" constant="8" id="rEB-qn-vkF"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="السورة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFX-Kf-J0o">
+                                <rect key="frame" x="248" y="24" width="86" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الجـــزء" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foS-53-Udu">
+                                <rect key="frame" x="40" y="24" width="88" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHr-K6-bGM">
+                                <rect key="frame" x="120" y="609" width="141" height="53"/>
+                                <color key="backgroundColor" red="0.87920719385147095" green="0.78722405433654785" blue="0.56890499591827393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="record"/>
+                                <connections>
+                                    <action selector="onClickStartRecitationButton:" destination="cua-8R-XO6" eventType="touchUpInside" id="R9d-Pe-zQ2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87920719390000002" green="0.78722405429999998" blue="0.56890499589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="co2-xI-mTJ" firstAttribute="bottom" secondItem="AHr-K6-bGM" secondAttribute="bottom" constant="5" id="7qM-KG-adS"/>
+                            <constraint firstItem="co2-xI-mTJ" firstAttribute="trailing" secondItem="rFX-Kf-J0o" secondAttribute="trailing" constant="41" id="Bq3-in-6RM"/>
+                            <constraint firstItem="rFX-Kf-J0o" firstAttribute="leading" secondItem="co2-xI-mTJ" secondAttribute="leading" constant="248" id="R1f-3s-RMB"/>
+                            <constraint firstItem="co2-xI-mTJ" firstAttribute="bottom" secondItem="9ih-Yn-iL4" secondAttribute="bottom" constant="99" id="UD0-q2-MYv"/>
+                            <constraint firstItem="AHr-K6-bGM" firstAttribute="leading" secondItem="co2-xI-mTJ" secondAttribute="leading" constant="120" id="XU5-hM-BiW"/>
+                            <constraint firstItem="AHr-K6-bGM" firstAttribute="top" secondItem="N2A-ht-Nhu" secondAttribute="bottom" constant="8" symbolic="YES" id="Xc9-kk-nnn"/>
+                            <constraint firstItem="N2A-ht-Nhu" firstAttribute="leading" secondItem="Zb3-eB-pVS" secondAttribute="leading" id="aUi-Vh-LVC"/>
+                            <constraint firstItem="co2-xI-mTJ" firstAttribute="trailing" secondItem="9ih-Yn-iL4" secondAttribute="trailing" constant="27" id="ctZ-bG-VsE"/>
+                            <constraint firstItem="9ih-Yn-iL4" firstAttribute="top" secondItem="foS-53-Udu" secondAttribute="bottom" constant="9" id="eQu-sO-Yyu"/>
+                            <constraint firstItem="foS-53-Udu" firstAttribute="top" secondItem="co2-xI-mTJ" secondAttribute="top" constant="4" id="gjJ-zb-O2S"/>
+                            <constraint firstItem="co2-xI-mTJ" firstAttribute="bottom" secondItem="N2A-ht-Nhu" secondAttribute="bottom" constant="66" id="hPn-fV-m32"/>
+                            <constraint firstItem="rFX-Kf-J0o" firstAttribute="leading" secondItem="foS-53-Udu" secondAttribute="trailing" constant="120" id="jfm-hY-HdD"/>
+                            <constraint firstItem="rFX-Kf-J0o" firstAttribute="top" secondItem="co2-xI-mTJ" secondAttribute="top" constant="4" id="oYI-a6-BVu"/>
+                            <constraint firstItem="9ih-Yn-iL4" firstAttribute="top" secondItem="co2-xI-mTJ" secondAttribute="top" constant="44" id="rbj-uh-qbX"/>
+                            <constraint firstItem="9ih-Yn-iL4" firstAttribute="top" secondItem="rFX-Kf-J0o" secondAttribute="bottom" constant="12.5" id="tjB-pq-UZn"/>
+                            <constraint firstItem="foS-53-Udu" firstAttribute="leading" secondItem="co2-xI-mTJ" secondAttribute="leading" constant="40" id="u8A-6A-Ibq"/>
+                            <constraint firstItem="AHr-K6-bGM" firstAttribute="centerX" secondItem="9ih-Yn-iL4" secondAttribute="centerX" id="vwj-fg-dxd"/>
+                            <constraint firstItem="9ih-Yn-iL4" firstAttribute="leading" secondItem="co2-xI-mTJ" secondAttribute="leading" constant="32" id="x2A-Ql-dZZ"/>
+                            <constraint firstAttribute="trailing" secondItem="N2A-ht-Nhu" secondAttribute="trailing" id="y4u-kj-mi7"/>
+                            <constraint firstItem="N2A-ht-Nhu" firstAttribute="top" secondItem="co2-xI-mTJ" secondAttribute="top" id="yqE-Md-G2t"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="co2-xI-mTJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="SuraVersesTextView" destination="55q-jI-7dD" id="pZO-mN-fJS"/>
+                        <outlet property="chapterNumberLabel" destination="foS-53-Udu" id="Cmb-9F-hXz"/>
+                        <outlet property="microphoneButton" destination="AHr-K6-bGM" id="ZZ3-uj-9Dg"/>
+                        <outlet property="suraNameLabel" destination="rFX-Kf-J0o" id="TJn-3L-28k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yw4-uW-R5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1423" y="456"/>
+        </scene>
+        <!--Quran Result View Controller-->
+        <scene sceneID="9eh-A9-gSm">
+            <objects>
+                <viewController storyboardIdentifier="QuranResult" id="WXO-lh-bbs" customClass="QuranResultViewController" customModule="Quran" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MzB-yZ-hb1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newQuranBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vyq-0T-f3D">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nL-zM-QS0">
+                                <rect key="frame" x="32" y="64" width="316" height="583"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7rx-de-1rd">
+                                        <rect key="frame" x="8" y="8" width="300" height="567"/>
+                                        <fontDescription key="fontDescription" name="_PDMS_Saleem_QuranFont" family="_PDMS_Saleem_QuranFont" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7rx-de-1rd" secondAttribute="trailing" constant="8" id="0n0-Vy-6e2"/>
+                                    <constraint firstAttribute="bottom" secondItem="7rx-de-1rd" secondAttribute="bottom" constant="8" id="7O8-ua-wNu"/>
+                                    <constraint firstItem="7rx-de-1rd" firstAttribute="centerY" secondItem="0nL-zM-QS0" secondAttribute="centerY" id="TcB-UV-PlR"/>
+                                    <constraint firstItem="7rx-de-1rd" firstAttribute="centerX" secondItem="0nL-zM-QS0" secondAttribute="centerX" id="fOQ-Ir-6JQ"/>
+                                    <constraint firstItem="7rx-de-1rd" firstAttribute="top" secondItem="0nL-zM-QS0" secondAttribute="top" constant="8" id="l50-QE-kVI"/>
+                                    <constraint firstItem="7rx-de-1rd" firstAttribute="leading" secondItem="0nL-zM-QS0" secondAttribute="leading" constant="8" id="wUj-En-Eb2"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="السورة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvc-N2-oga">
+                                <rect key="frame" x="248" y="24" width="86" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الجـــزء" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="na8-Wh-odb">
+                                <rect key="frame" x="43" y="27" width="95" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87920719390000002" green="0.78722405429999998" blue="0.56890499589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0nL-zM-QS0" firstAttribute="leading" secondItem="5dc-k6-BdP" secondAttribute="leading" constant="32" id="1wN-FC-g0g"/>
+                            <constraint firstItem="5dc-k6-BdP" firstAttribute="trailing" secondItem="0nL-zM-QS0" secondAttribute="trailing" constant="27" id="6hn-Mf-WMH"/>
+                            <constraint firstAttribute="trailing" secondItem="vyq-0T-f3D" secondAttribute="trailing" id="9G6-NY-7Bb"/>
+                            <constraint firstItem="0nL-zM-QS0" firstAttribute="top" secondItem="rvc-N2-oga" secondAttribute="bottom" constant="12.5" id="DuF-2t-fdX"/>
+                            <constraint firstItem="5dc-k6-BdP" firstAttribute="bottom" secondItem="0nL-zM-QS0" secondAttribute="bottom" constant="20" id="Kde-pz-1DB"/>
+                            <constraint firstItem="vyq-0T-f3D" firstAttribute="top" secondItem="5dc-k6-BdP" secondAttribute="top" id="MvF-yD-GtB"/>
+                            <constraint firstItem="rvc-N2-oga" firstAttribute="leading" secondItem="5dc-k6-BdP" secondAttribute="leading" constant="248" id="N3h-wG-n52"/>
+                            <constraint firstItem="5dc-k6-BdP" firstAttribute="trailing" secondItem="rvc-N2-oga" secondAttribute="trailing" constant="41" id="N49-kN-9Ch"/>
+                            <constraint firstItem="na8-Wh-odb" firstAttribute="leading" secondItem="5dc-k6-BdP" secondAttribute="leading" constant="43" id="NMn-SN-e0H"/>
+                            <constraint firstItem="0nL-zM-QS0" firstAttribute="top" secondItem="5dc-k6-BdP" secondAttribute="top" constant="44" id="SVW-DU-Rld"/>
+                            <constraint firstItem="rvc-N2-oga" firstAttribute="top" secondItem="5dc-k6-BdP" secondAttribute="top" constant="4" id="dBp-EQ-JWf"/>
+                            <constraint firstItem="5dc-k6-BdP" firstAttribute="bottom" secondItem="vyq-0T-f3D" secondAttribute="bottom" id="iAT-aS-vjU"/>
+                            <constraint firstItem="vyq-0T-f3D" firstAttribute="leading" secondItem="MzB-yZ-hb1" secondAttribute="leading" id="lzF-UB-llg"/>
+                            <constraint firstItem="na8-Wh-odb" firstAttribute="top" secondItem="5dc-k6-BdP" secondAttribute="top" constant="7" id="rn1-Ed-UHp"/>
+                            <constraint firstItem="rvc-N2-oga" firstAttribute="leading" secondItem="na8-Wh-odb" secondAttribute="trailing" constant="110" id="vTv-Ox-pQQ"/>
+                            <constraint firstItem="0nL-zM-QS0" firstAttribute="top" secondItem="na8-Wh-odb" secondAttribute="bottom" constant="9" id="xST-x1-BbN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5dc-k6-BdP"/>
+                    </view>
+                    <connections>
+                        <outlet property="SuraVersesTextView" destination="7rx-de-1rd" id="0pA-zw-ofC"/>
+                        <outlet property="chapterNumberLabel" destination="na8-Wh-odb" id="vZ0-H6-0Md"/>
+                        <outlet property="suraNameLabel" destination="rvc-N2-oga" id="XA9-5n-SEF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FuU-rg-wnx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="456"/>
+        </scene>
+        <!--Recitation-->
+        <scene sceneID="Qes-hw-ukA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tDV-1C-cXe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Recitation" image="recitation" id="5HE-dt-8tW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="twx-Ch-lgr">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f9b-rz-DQL" kind="relationship" relationship="rootViewController" id="f5K-Ge-Usm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJZ-SV-Eg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="456"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="newQuranBackground" width="79" height="118"/>
+        <image name="recitation" width="21" height="21"/>
+        <image name="record" width="33" height="33"/>
+        <image name="seaarch bar" width="152" height="37"/>
+    </resources>
+</document>
